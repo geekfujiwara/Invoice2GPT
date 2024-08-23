@@ -4,28 +4,39 @@
 
 ![image](https://github.com/user-attachments/assets/67f93352-ef38-400a-8a26-1340aedd5ec8)
 
-※オンプレ会計システム連携部分についてはソリューションに含めておりません。
+- オンプレ会計システム連携部分についてはソリューションに含めておりません。
 
 # デモ動画
 ##オンプレ会計システム連携無し板(提供しているソリューション)
 
 https://github.com/user-attachments/assets/53a71f03-bad6-4587-99da-29b36c422cbe
 
-## オンプレ会計システム連携あり版(デモ動画のみの提供)
+## オンプレ会計システム連携あり版(活用イメージとしてのデモ動画のみの提供)
 
 実行される環境によって、差異が考えられるため、オンプレミス連携のRPA部分はソリューションに含んでおりません。各自、連携先のシステムに合わせてフローを修正してください。
 
 https://github.com/user-attachments/assets/db7bd79a-43a9-433d-8575-c3bb123008c2
 
 # ソリューションの構成
+以下のコンポーネントが含まれています。
 
-キャンバスアプリ1つと、読み取った請求データを登録するDataverseテーブル、承認ワークフローっ陽のPower Automate、AIプロンプトが含まれています。
+* キャンバスアプリ
+* 読み取った請求データを登録するDataverseテーブル
+* 承認ワークフローと会計システム連携用のPower Automate クラウドフロー
+* データを抽出するAIプロンプト
 
 ![image](https://github.com/user-attachments/assets/28b82ad5-e01e-4490-a72c-04dfe28b3834)
 
-AIプロンプトは、請求書に特化するようにプロンプトが組み込まれており、請求額、請求日、メールアドレス、請求先名、請求書番号を抽出するようになっています。
+AIプロンプトは請求書に特化するように調整されており、以下の項目を抽出します。
+- 請求額
+- 請求日
+- メールアドレス
+- 請求先の会社名
+- 請求書番号
 
 ![image](https://github.com/user-attachments/assets/ea41e4af-58d5-471f-b7e9-f73f19a6e71f)
+
+# 特長
 
 ## モバイル対応
 
@@ -39,7 +50,7 @@ OCR部分を非表示にして抽出結果を確認することができます�
 
 ## 抽出過程の表示
 
-普段は非表示ですが、必要に応じてOCRの結果、Jsonへの抽出ログを確認することができます。
+普段は非表示ですが、必要に応じてOCRの結果、JSONへの抽出ログを確認することができます。
 
 ![image](https://github.com/user-attachments/assets/cc8bcf9a-a2b2-4a63-a60d-e7d3ae485a64)
 
@@ -51,22 +62,23 @@ OCR部分を非表示にして抽出結果を確認することができます�
 * 本ソリューションには含まれておりませんが、もし、RPAの機能を実装する場合Power Automate Premium のライセンスも必要です。
 
 # ソリューションのインポート方法
+Azure 等のPower Plarform から見て外部リソースを使用していないため、ソリューションをインポートするだけで使えます。
 
-Powe Apps 作成者ポータルから[リリース](https://github.com/geekfujiwara/Invoice2GPT/releases/tag/Invoice2GPT)より入手したソリューションをインポートします。
+1. [リリース](https://github.com/geekfujiwara/Invoice2GPT/releases/tag/Invoice2GPT)より入手したソリューションをPowe Apps 作成者ポータルにてインポートします。
 
 ![image](https://github.com/user-attachments/assets/dbca5c1c-28a8-4f0a-b712-177172c8799e)
 
 
-ソリューションはマネージドソリューションに提供されていますので、マネージドのタブからソリューションを選択します。
+2. インポート完了後、ソリューションはマネージドソリューションに提供されていますので、マネージドのタブからソリューションを選択します。
 
 ![image](https://github.com/user-attachments/assets/d54ead3d-0196-4050-b01b-0fff8f897acb)
 
 
-すべてのカスタマイズを公開します。
+3. すべてのカスタマイズを公開します。
 
 ![image](https://github.com/user-attachments/assets/740b0940-3ac5-4ab1-822d-233bf1dceaba)
 
-フローが有効になっていることを確認します。もし有効になっていなかった場合、フローを有効化します。
+4. フローが有効になっていることを確認します。もし有効になっていなかった場合、フローを有効化します。
 
 ![image](https://github.com/user-attachments/assets/0438e7bb-88ae-4f6b-a3da-6276e16efae0)
 
