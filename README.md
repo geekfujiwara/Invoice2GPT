@@ -64,7 +64,7 @@ OCR部分を非表示にして抽出結果を確認することができます�
 # ソリューションのインポート方法
 Azure 等のPower Plarform から見て外部リソースを使用していないため、ソリューションをインポートするだけで使えます。
 
-1. [リリース](https://github.com/geekfujiwara/Invoice2GPT/releases/tag/Invoice2GPT)より入手したソリューションをPowe Apps 作成者ポータルにてインポートします。
+1. [リリース](https://github.com/geekfujiwara/Invoice2GPT/releases/tag/Invoice2GPT)より入手したソリューションをPower Apps 作成者ポータルにてインポートします。
 
 ![image](https://github.com/user-attachments/assets/dbca5c1c-28a8-4f0a-b712-177172c8799e)
 
