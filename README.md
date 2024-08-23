@@ -38,6 +38,14 @@ AIプロンプトは請求書に特化するように調整されており、以
 
 # 特長
 
+## 抽出過程の表示
+
+普段は非表示ですが、必要に応じてOCRの結果、JSONへの抽出ログを確認することができます。
+
+![image](https://github.com/user-attachments/assets/e33c06a3-6e11-4a50-922e-9a7064285407)
+
+
+
 ## モバイル対応
 
 モバイルデバイスでもレイアウトが最適化されて外出先でも利用できるように設計されています。
@@ -53,17 +61,9 @@ OCR部分を非表示にすることができ、抽出された結果を確認�
 ![image](https://github.com/user-attachments/assets/081a3f12-8426-43ad-8ab9-86fbb4356787)
 
 
-出力結果のログも確認することができます。
+モバイルでも出力結果のログも確認することができます。
 
 ![image](https://github.com/user-attachments/assets/402fa7db-b052-47db-947b-c46412b2429a)
-
-
-
-## 抽出過程の表示
-
-普段は非表示ですが、必要に応じてOCRの結果、JSONへの抽出ログを確認することができます。
-
-![image](https://github.com/user-attachments/assets/cc8bcf9a-a2b2-4a63-a60d-e7d3ae485a64)
 
 
 
