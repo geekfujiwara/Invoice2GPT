@@ -82,3 +82,8 @@ Powe Apps 作成者ポータルから[リリース](https://github.com/geekfujiw
 >
 > ![image](https://github.com/user-attachments/assets/1b5fa1e2-efc4-42ed-916b-9ce8458bc765)
 
+
+## サンプルデータ
+テスト用に必要でしたら、[請求書のサンプルデータ](https://github.com/geekfujiwara/Invoice2GPT/releases/tag/SampleInvoice)をご利用ください。
+
+以上
