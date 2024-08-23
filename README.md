@@ -40,13 +40,24 @@ AIプロンプトは請求書に特化するように調整されており、以
 
 ## モバイル対応
 
+モバイルデバイスでもレイアウトが最適化されて外出先でも利用できるように設計されています。
+
+![image](https://github.com/user-attachments/assets/538eea9d-50e1-4de8-a94f-a7c8edec23aa)
+
 モバイルデバイスでもカメラを起動して写真を撮影し、ドキュメントをアップロードすることができます。
 
-![image](https://github.com/user-attachments/assets/f59df029-9b9c-4864-ac75-d22710936221)
+![image](https://github.com/user-attachments/assets/0675204f-d2c4-4641-8169-7899a5c5da4a)
 
-OCR部分を非表示にして抽出結果を確認することができます。
+OCR部分を非表示にすることができ、抽出された結果を確認することができます。
 
-![image](https://github.com/user-attachments/assets/1651863d-fec1-417c-9cf7-0131ce4140e0)
+![image](https://github.com/user-attachments/assets/081a3f12-8426-43ad-8ab9-86fbb4356787)
+
+
+出力結果のログも確認することができます。
+
+![image](https://github.com/user-attachments/assets/402fa7db-b052-47db-947b-c46412b2429a)
+
+
 
 ## 抽出過程の表示
 
